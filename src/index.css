@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --color-medical-blue: #1e40af;
+  --color-medical-light: #dbeafe;
+  --color-health-green: #059669;
+  --color-hpcsa-gold: #92400e;
+  --color-text-main: #1e293b;
+  --color-background-slate: #f8fafc;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --shadow-medical: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-medical-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+@layer base {
+  body {
+    @apply text-text-main bg-background-slate antialiased font-sans;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-medical-blue text-white px-6 py-3 rounded-xl font-semibold shadow-medical hover:bg-blue-900 transition-all active:scale-95 flex items-center justify-center gap-2;
+  }
+  
+  .btn-secondary-white {
+    @apply bg-white text-medical-blue px-6 py-3 rounded-xl font-semibold shadow-medical hover:bg-slate-50 transition-all active:scale-95 flex items-center justify-center gap-2;
+  }
+
+  .btn-outline {
+    @apply border border-slate-200 text-slate-600 bg-white px-6 py-3 rounded-xl font-semibold hover:bg-slate-50 transition-all active:scale-95 flex items-center justify-center gap-2;
+  }
+
+  .btn-whatsapp {
+    @apply bg-health-green text-white px-6 py-3 rounded-xl font-semibold shadow-medical hover:bg-emerald-700 transition-all active:scale-95 flex items-center justify-center gap-2;
+  }
+
+  .card-medical {
+    @apply bg-white rounded-3xl border border-slate-200 shadow-medical p-6;
+  }
+
+  .badge-medical {
+    @apply inline-block px-3 py-1 bg-white/20 rounded-full text-[10px] font-bold uppercase tracking-wider text-white;
+  }
+}
