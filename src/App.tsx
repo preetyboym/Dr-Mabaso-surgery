@@ -75,8 +75,8 @@ export default function App() {
       {/* Top Bar */}
       <div className="bg-medical-blue text-white text-[10px] uppercase font-bold tracking-widest py-2 px-4 flex justify-between items-center sm:px-8 border-b border-white/10">
         <div className="flex gap-6">
-          <span className="flex items-center gap-1.5 opacity-90"><Phone size={10} /> 011 456 7890</span>
-          <span className="flex items-center gap-1.5 hidden sm:flex opacity-90"><MapPin size={10} /> Sandton Medical Hub</span>
+          <span className="flex items-center gap-1.5 opacity-90"><Phone size={10} /> 036 631 0833</span>
+          <span className="flex items-center gap-1.5 hidden sm:flex opacity-90"><MapPin size={10} /> 32 Newcastle Road, Shop 5</span>
         </div>
         <div className="flex gap-6">
           <span className="flex items-center gap-1.5 opacity-90"><Clock size={10} /> 08:00 - 17:30</span>
@@ -92,8 +92,8 @@ export default function App() {
               M
             </div>
             <div>
-              <h1 className="font-bold text-lg leading-tight tracking-tight text-medical-blue">Dr Mabaso’s Surgery</h1>
-              <p className="text-[10px] text-slate-500 font-semibold uppercase tracking-wider">Registered Medical Practice • MP064231</p>
+              <h1 className="font-bold text-lg leading-tight tracking-tight text-medical-blue">Dr LE Mabaso Surgery</h1>
+              <p className="text-[10px] text-slate-500 font-semibold uppercase tracking-wider">Registered Medical Practice • MP0718858</p>
             </div>
           </div>
 
@@ -160,7 +160,7 @@ export default function App() {
               <div className="relative z-10">
                 <span className="badge-medical mb-6">Now Accepting New Patients</span>
                 <h2 className="text-4xl sm:text-6xl font-extrabold leading-[1.1] mb-6 tracking-tight">
-                  Your Trusted Local <br/>Family Doctor in <span className="text-medical-light">Sandton</span>
+                  Your Trusted Local <br/>Family Doctor in <span className="text-medical-light">Ladysmith</span>
                 </h2>
                 <p className="text-lg text-white/80 mb-10 max-w-xl leading-relaxed">
                   Quality, compassionate medical care for your family. We offer same-day appointments, specialized chronic care, and convenient health screenings.
@@ -193,14 +193,14 @@ export default function App() {
               <div className="relative h-48 rounded-2xl overflow-hidden bg-slate-100">
                 <img 
                   src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=400" 
-                  alt="Dr Tebogo Mabaso" 
+                  alt="Dr LE Mabaso" 
                   className="w-full h-full object-cover object-top"
                   referrerPolicy="no-referrer"
                 />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-medical-blue">Dr. Tebogo Mabaso</h3>
-                <p className="text-sm text-slate-500 font-semibold mb-3">MBChB (Wits), FCPSA (SA)</p>
+                <h3 className="text-xl font-bold text-medical-blue">Dr LE Mabaso</h3>
+                <p className="text-sm text-slate-500 font-semibold mb-3">GENERAL PRACTITIONER MBCHB(CUBA)</p>
                 <p className="text-xs text-slate-500 leading-relaxed">Over 15 years of dedicated service. Specialized in integrated primary healthcare and family wellness for our community.</p>
               </div>
               
@@ -215,7 +215,7 @@ export default function App() {
                 </div>
                 <div className="flex justify-between items-center py-2">
                   <span className="text-xs font-medium text-slate-500">Practice</span>
-                  <span className="text-xs font-bold text-slate-800">Sandton Hub</span>
+                  <span className="text-xs font-bold text-slate-800 text-right">Ladysmith (Illing Rd)</span>
                 </div>
               </div>
 
@@ -278,7 +278,7 @@ export default function App() {
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-medical-xl ring-8 ring-slate-50">
               <img 
                 src="https://images.unsplash.com/photo-1559839734-2b71f1e16943?q=80&w=2070&auto=format&fit=crop" 
-                alt="Dr Lindiwe Mabaso" 
+                alt="Dr LE Mabaso" 
                 className="w-full h-[600px] object-cover"
                 referrerPolicy="no-referrer"
               />
@@ -290,11 +290,11 @@ export default function App() {
             <div className="inline-block px-3 py-1 bg-medical-light text-medical-blue rounded-full text-[10px] font-bold uppercase tracking-widest mb-6">Expert Practitioner</div>
             <h2 className="text-4xl sm:text-5xl font-extrabold mb-8 text-medical-blue tracking-tight">Professional Medical Excellence</h2>
             <div className="space-y-6 text-slate-500 leading-relaxed text-base">
-              <p>With over 15 years in private practice, Dr. Tebogo Mabaso has built a reputation for thorough clinical diagnosis and compassionate patient engagement.</p>
-              <p>Our practice serves the wider Sandton area, focusing on a holistic approach that combines modern medical science with traditional family values.</p>
+              <p>With over 15 years in private practice, Dr. LE Mabaso has built a reputation for thorough clinical diagnosis and compassionate patient engagement.</p>
+              <p>Our practice serves the wider Ladysmith area, focusing on a holistic approach that combines modern medical science with traditional family values.</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8 pt-4">
                 {[
-                  "MBChB (University of Witwatersrand)",
+                  "GENERAL PRACTITIONER MBCHB(CUBA)",
                   "Registered with HPCSA",
                   "FCPSA (College of Physicians SA)",
                   "Primary Care & Family Wellness"
@@ -335,7 +335,7 @@ export default function App() {
               </div>
               <div className="space-y-1.5">
                 <label className="text-[10px] font-bold uppercase tracking-[0.1em] text-slate-400 ml-1">Mobile Number</label>
-                <input type="tel" placeholder="011 456 7890" className="w-full px-5 py-3.5 bg-slate-50 border border-slate-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-medical-blue/10 focus:border-medical-blue text-sm transition-all" />
+                <input type="tel" placeholder="036 631 0833" className="w-full px-5 py-3.5 bg-slate-50 border border-slate-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-medical-blue/10 focus:border-medical-blue text-sm transition-all" />
               </div>
               <div className="space-y-1.5">
                 <label className="text-[10px] font-bold uppercase tracking-[0.1em] text-slate-400 ml-1">Appointment Date</label>
@@ -395,8 +395,8 @@ export default function App() {
                 </div>
                 <div>
                   <h4 className="font-bold text-lg">Location</h4>
-                  <p className="text-slate-500">123 Health Way, Ground Floor, Suite 4</p>
-                  <p className="text-slate-500">Morningside, Sandton, 2196</p>
+                  <p className="text-slate-500">32 Newcastle Road, Shop No. 5</p>
+                  <p className="text-slate-500">Illing Road, Ladysmith, 3370</p>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -405,8 +405,8 @@ export default function App() {
                 </div>
                 <div>
                   <h4 className="font-bold text-lg">Contact Details</h4>
-                  <p className="text-slate-500">Tel: 011 234 5678</p>
-                  <p className="text-slate-500">Email: info@drmabaso.co.za</p>
+                  <p className="text-slate-500">Tel: 036 631 0833</p>
+                  <p className="text-slate-500">Email: drlemabasosurgery@gmail.com</p>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -451,9 +451,9 @@ export default function App() {
                 <div className="bg-white w-8 h-8 rounded-lg flex items-center justify-center text-medical-blue font-bold text-lg">
                   M
                 </div>
-                <h1 className="font-bold text-lg tracking-tight">Dr Mabaso’s Surgery</h1>
+                <h1 className="font-bold text-lg tracking-tight">Dr LE Mabaso Surgery</h1>
               </div>
-              <p className="text-xs text-white/60 leading-relaxed max-w-xs">Dedicated to providing world-class primary medical care for our family community in Sandton and surrounds.</p>
+              <p className="text-xs text-white/60 leading-relaxed max-w-xs">Dedicated to providing world-class primary medical care for our family community in Ladysmith and surrounds.</p>
             </div>
             <div className="flex flex-col gap-4">
               <h4 className="text-[10px] font-bold uppercase tracking-widest text-medical-light">Quick Links</h4>
@@ -473,7 +473,7 @@ export default function App() {
             </div>
           </div>
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] font-bold text-white/40 uppercase tracking-[0.2em] text-center">
-            <p>© 2026 Dr Mabaso’s Surgery. Sandton, South Africa.</p>
+            <p>© 2026 Dr LE Mabaso Surgery. Ladysmith, South Africa.</p>
             <p>Designed for Healthcare Excellence</p>
           </div>
         </div>
